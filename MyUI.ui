@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1799</width>
+    <height>1600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="stateComboBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>431</width>
+      <height>121</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="cityListWidget">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>400</y>
+      <width>451</width>
+      <height>371</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="zipcodeListWidget">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>10</y>
+      <width>491</width>
+      <height>361</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="categoryListWidget">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>400</y>
+      <width>491</width>
+      <height>361</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="businessTableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>820</y>
+      <width>1221</width>
+      <height>741</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1799</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
